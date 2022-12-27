@@ -18,11 +18,11 @@
 |  参数名称   | 参数说明  | 参数示例
 |  ----  | ----  | ---- |
 | defaultFs  | hdfs集群地址 | hdfs://xxx:8020|
-| src_hbaseRootDir  | 源HBase集群hbase-site.xml中hbase.rootdir属性值 |缺省/hbase|
-| dst_zkQuorum  | 目标HBase集群zookeeper地址 |x.x.x.x:2181|
-| dst_hbaseRootDir  | 目标HBase集群hbase-site.xml中hbase.rootdir属性值 |缺省/hbase|
+| src_hbaseRootDir  | HBase源集群hbase.rootdir属性值,不带schema |缺省/hbase|
+| dst_zkQuorum  | HBase目标集群zookeeper地址 |x.x.x.x:2181|
+| dst_hbaseRootDir  | HBase目标集群hbase.rootdir属性值,不带schema |缺省/hbase|
 ### 可选参数说明
 |  参数名称   | 参数说明  | 参数示例
 |  ----  | ----  | ---- |
-| src_namespace:src_table  | HFile所属HBase源表namespace:HBase源表名称 |缺省namespace为default|
-| dst_namespace:dst_table  | HBase目标表namespace:HBase目标表名称 |缺省namespace为default|
+| src_namespace:src_table  | HBase源集群namespace:HBase源表 |缺省namespace为default|
+| dst_namespace:dst_table  | HBase目标集群namespace:HBase目标表 |缺省namespace为default|
