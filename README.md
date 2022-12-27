@@ -9,7 +9,7 @@
     ./hbase-hfile [src_namespace] [src_table] [dst_namespace] [dst_table]
 	# 编辑公共参数,一般只修改一次即可
 	vim hbase-hfile
-	[defaultFs] [src_hbaseRootDir] [dst_zkQuorum] [dst_hbaseRootDir] 替换为真实环境参数
+	[defaultFs] [src_hbaseRootDir] [dst_zkQuorum] [dst_hbaseRootDir] 替换为真实参数
     # 执行脚本示例
     ./hbase-hfile default:panTag test:panTag
 
