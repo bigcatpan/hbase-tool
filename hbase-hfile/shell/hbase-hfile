@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ $# -lt 2 ];
+then
+  echo "USAGE: $0 [src_namespace:src_table] [dst_namespace:dst_table]"
+  exit 1
+fi
+java -cp ./hbase-hfile.jar -Djava.library.path=/usr/lib/hadoop/lib/native com.hbase.HFile2HBase [defaultFs] [src_hbaseRootDir] [dst_zkQuorum] [dst_hbaseRootDir] $@

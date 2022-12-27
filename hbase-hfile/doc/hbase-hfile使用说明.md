@@ -1,7 +1,6 @@
-# hbase工具箱
-## hfile还原数据工具
+## hbase-hfile使用说明
 ### 功能
-读取HBase源表的HFile文件内容，通过Bulkload方式加载并写入HBase目标表。
+读取HBase源表的HFile文件内容，通过Bulkload方式加载并写入HBase目标表
 ### 使用方法
     # 授权
     chmod u+x hbase-hfile
@@ -26,3 +25,4 @@
 |  ----  | ----  | ---- |
 | src_namespace:src_table  | HFile所属HBase源表namespace:HBase源表名称 |缺省namespace为default|
 | dst_namespace:dst_table  | HBase目标表namespace:HBase目标表名称 |缺省namespace为default|
+
