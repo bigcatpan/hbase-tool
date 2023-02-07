@@ -26,3 +26,6 @@
 |  ----  | ----  | ---- |
 | src_namespace:src_table  | HBase源集群namespace:HBase源表 |缺省namespace为default|
 | dst_namespace:dst_table  | HBase目标集群namespace:HBase目标表 |缺省namespace为default|
+
+## 相关Blog
+https://blog.csdn.net/BlogPan/article/details/128461632?spm=1001.2014.3001.5502
